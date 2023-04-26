@@ -4,6 +4,11 @@ import Welcome from './components/welcome'
 import Greet from './components/Greet'
 import Hello from './components/hello'
 import Message from './components/message';
+import Counter from './components/counter'
+import Destructuring from './components/destructuring';
+import Class_Des from './components/destructuring.2';
+import FunctionClick from './components/function_click';
+import ClassClick from './components/class.click';
 class App extends Component {
   render() {
     return (
@@ -16,6 +21,11 @@ class App extends Component {
         <Welcome name="Nish" />
         <Hello />
         <Message/>
+        <Counter/>
+        <Destructuring name="Aman" Heroname="Brilliant"/>
+        <Class_Des name="Neeru" />
+        <FunctionClick/>
+        <ClassClick/>
       </div>
     )
   }
