@@ -25,7 +25,7 @@ The component code is placed in javascript file whereas App component is placed 
 
 Component Types
 
-1. Stateless Functional component = javascript functions
+1. Stateless Functional component = javascript functions. There is absence of this in functional components
 
 function welcome(props){
     return <h1>Hello, {props.name}</h1>;
@@ -51,3 +51,31 @@ Class Components in detail
 
 class components are ES6 classes, can receive properties(props) and can return HTML(JSX)
 => can contain private info also
+
+But with the latest version of react, Hooks were introduced
+Hooks are a new feature proposal that lets you use state and other react features without writing a class.
+
+JSX
+Javascript XML (jsx)- Extension to the javascript language Syntax
+write XML like code for elements and components
+JSX tags have a tag name, attributes, and children
+
+What are props?
+
+Props stand for "Properties." They are read-only components. 
+It is an object which stores the value of attributes of a tag and 
+work similar to the HTML attributes. It gives a way to pass data from one 
+component to other components. It is similar to function arguments. 
+Props are passed to the component in the same way as arguments passed in a function.
+
+Props are immutable that means you cannot reassign values to them
+
+
+Props vs state
+
+=> Props get passed to the component wherease state is managed within the component
+=> Function parameters whereas in state, the variables are declared in the function body
+=> Props are immutable, state can be changed
+=> props = functional components, this.props = class components whereas in state, useState Hook = Functional Components and this.state is the class components
+
+
