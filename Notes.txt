@@ -1,0 +1,53 @@
+WHAT IS REACT?
+
+React is an open source library for building user interfaces. Remember, it's not a framework.
+
+Why React? It is created and maintained by facebook
+
+=> React has a component based architecture
+=> Reusable code
+=> React is declarative
+=> DOM updates are handled gracefully
+=> React native is for mobile applications
+
+=> command for creating new react project = npx create-react-app first_app
+
+Components
+
+There are mainly five Components
+1. Header
+2. Main content
+3. Sidenav
+4. Footer
+5. Root(App) component
+
+The component code is placed in javascript file whereas App component is placed in APP.js 
+
+Component Types
+
+1. Stateless Functional component = javascript functions
+
+function welcome(props){
+    return <h1>Hello, {props.name}</h1>;
+}
+
+2. Stateful class component
+
+Class extending component class 
+Render method returning HTML
+
+example: 
+class welcome extends React.Component{
+    render(){
+        return <h1>Hello, {props.name}</h1>;
+    }
+}
+
+Functional components in detail: are just javascript functions they can optionally receive
+javascript objects of properties returning HTML which describes the UI. The html here is called jsx
+
+
+Class Components in detail
+
+class components are ES6 classes, can receive properties(props) and can return HTML(JSX)
+=> can contain private info also
