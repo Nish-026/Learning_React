@@ -9,6 +9,9 @@ import Destructuring from './components/destructuring';
 import Class_Des from './components/destructuring.2';
 import FunctionClick from './components/function_click';
 import ClassClick from './components/class.click';
+import EventBind from './components/eventBind';
+import ParentComponent from './components/parentcomponent';
+import UserGreeting from './components/userGreeting';
 class App extends Component {
   render() {
     return (
@@ -26,6 +29,9 @@ class App extends Component {
         <Class_Des name="Neeru" />
         <FunctionClick/>
         <ClassClick/>
+        <EventBind/>
+        <ParentComponent/>
+        <UserGreeting/>
       </div>
     )
   }
