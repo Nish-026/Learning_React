@@ -12,11 +12,19 @@ import ClassClick from './components/class.click';
 import EventBind from './components/eventBind';
 import ParentComponent from './components/parentcomponent';
 import UserGreeting from './components/userGreeting';
+import NameList from './components/NameList';
+import PersonList from './components/PersonList';
+import Stylesheet from './components/stylesheet';
+import Inline from './components/inline_styling';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Greet name="Nish" />
+        <h1 className="error">Errorrrrrrrrrrr</h1>
+        <h1 className={styles.success}>Successsssssssss</h1>
+                <Greet name="Nish" />
         <Greet name="Nishtha">
           <p>This is children element</p>
           <button>Yayyyyyy!!</button>
@@ -32,6 +40,10 @@ class App extends Component {
         <EventBind/>
         <ParentComponent/>
         <UserGreeting/>
+        <NameList />
+        <PersonList />
+        <Stylesheet />
+        <Inline />
       </div>
     )
   }

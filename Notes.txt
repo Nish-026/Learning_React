@@ -78,4 +78,17 @@ Props vs state
 => Props are immutable, state can be changed
 => props = functional components, this.props = class components whereas in state, useState Hook = Functional Components and this.state is the class components
 
+List and keys
+
+   A key is a special string attribute you need to include when creatinf lists of element
+   Keys gives the elements a stbale identity
+   Keys help react identify which items have changed, are added or are removed
+
+
+// Styling React Components
+1. CSS stylesheets
+2. Inline Styling
+3. CSS modules
+4. CSS in JS libraries
+
 
