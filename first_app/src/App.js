@@ -18,6 +18,7 @@ import Stylesheet from './components/stylesheet';
 import Inline from './components/inline_styling';
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import Form from './components/form';
 class App extends Component {
   render() {
     return (
@@ -44,6 +45,7 @@ class App extends Component {
         <PersonList />
         <Stylesheet />
         <Inline />
+        <Form />
       </div>
     )
   }
