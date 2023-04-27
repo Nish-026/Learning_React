@@ -104,9 +104,9 @@ there are mainly 4 methods
   React has four built-in methods that gets called, in this order, when mounting a component:
 
   =1.constructor()
-  =2.getDerivedStateFromProps()
-  =3.render()
-  =4.componentDidMount()
+  =2.getDerivedStateFromProps() == When the state of the component depends on changes in props over time and set the state
+  =3.render() == Read props & state and return JSX, Do not change state or interact with DOM or make AJAX calls
+  =4.componentDidMount() == Invoked immediately after a component and all its children components have been rendered to the DOM
   The render() method is required and will always be called, the others are optional and will be called if you define them.
 
   Updating
